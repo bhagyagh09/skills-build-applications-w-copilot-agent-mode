@@ -27,9 +27,9 @@ class WorkoutViewSet(viewsets.ModelViewSet):
 @api_view(['GET'])
 def api_root(request, format=None):
     return Response({
-        'users': 'users/',
-        'teams': 'teams/',
-        'activity': 'activity/',
-        'leaderboard': 'leaderboard/',
-        'workouts': 'workouts/',
+        'users': 'https://improved-space-waddle-6v9g76jg5g62x6rr-8000.app.github.dev/users/',
+        'teams': 'https://improved-space-waddle-6v9g76jg5g62x6rr-8000.app.github.dev/teams/',
+        'activity': 'https://improved-space-waddle-6v9g76jg5g62x6rr-8000.app.github.dev/activity/',
+        'leaderboard': 'https://improved-space-waddle-6v9g76jg5g62x6rr-8000.app.github.dev/leaderboard/',
+        'workouts': 'https://improved-space-waddle-6v9g76jg5g62x6rr-8000.app.github.dev/workouts/',
     })

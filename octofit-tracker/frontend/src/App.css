@@ -1,0 +1,93 @@
+body {
+  background-color: #f0f8ff; /* Light blue background */
+  color: #333; /* Dark text color */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+  margin-right: auto;
+  display: block;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4caf50; /* Green background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white; /* White text */
+}
+
+.App-link {
+  color: #ff5722; /* Orange links */
+  text-decoration: none;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #007bff; /* Blue navigation menu */
+}
+
+.navbar-brand, .nav-link {
+  color: white !important; /* White text for navigation */
+}
+
+.nav-link:hover {
+  color: #ffcc00 !important; /* Yellow on hover */
+}
+
+h1 {
+  color: #673ab7; /* Purple headings */
+}
+
+button {
+  background-color: #ff9800; /* Orange buttons */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e65100; /* Darker orange on hover */
+}
+
+.table {
+  background-color: #ffffff; /* White table background */
+  border: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f1f1f1; /* Light gray header */
+  color: #333;
+}
+
+.table td {
+  color: #555;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
